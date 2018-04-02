@@ -34,6 +34,5 @@ export default class Home extends Vue {
     Store.commit('increment');
     console.log(Store.state.count);
   }
-
 }
 </script>
