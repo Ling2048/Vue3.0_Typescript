@@ -26,6 +26,7 @@ export default class Home extends Vue {
     console.log('created'); // -> Hello
   }
 
+  //计算属性，这样写才能更新
   get counter() {
     return Store.state.count;
   }
